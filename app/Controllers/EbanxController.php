@@ -15,7 +15,7 @@ class EbanxController extends Controller
         try {
             $truncate = Account::truncate();
             if (!$truncate) throw new Exception("Could not reset state");
-            return $response->withJson('OK', 200);
+            return $response->write('OK')->withStatus(200);
         } catch (Exception $e) {
             return $response->withJson($e->getMessage(), 404);
         }
