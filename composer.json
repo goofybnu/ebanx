@@ -1,0 +1,17 @@
+{
+    "name": "goofybnu/ebanx",
+    "description": "ebanx assignment test",
+    "license": "private",
+    "type": "project",
+    "require": {
+        "php": ">=7.3.0",
+        "ext-pdo_sqlite": "*",
+        "slim/slim": "3.*",
+        "illuminate/database": "^5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "./app/"
+        }
+    }
+}
