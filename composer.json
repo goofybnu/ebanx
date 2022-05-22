@@ -1,7 +1,7 @@
 {
     "name": "goofybnu/ebanx",
     "description": "ebanx assignment test",
-    "license": "private",
+    "license": "proprietary",
     "type": "project",
     "require": {
         "php": ">=7.3.0",
