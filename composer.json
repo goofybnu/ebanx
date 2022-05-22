@@ -4,8 +4,6 @@
     "license": "proprietary",
     "type": "project",
     "require": {
-        "php": ">=7.3.0",
-        "ext-pdo_sqlite": "*",
         "slim/slim": "3.*",
         "illuminate/database": "^5.6"
     },
